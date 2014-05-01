@@ -11,3 +11,28 @@
  *= require_self
  *= require_tree .
  */
+/*Trying a CSS reset suggested by Web Designer Magazine instead of the normal normalize.css*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+  display:block;
+}
+
+*{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: Arial, Verdana;
+}
+
+#wrapper {
+  margin: 0 auto 100px auto;
+  max-width: 960px;
+}
+
+.viewpoint {
+  list-style:none;
+  padding:0;
+}
